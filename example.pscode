@@ -54,9 +54,6 @@ number age
 string firstName
 boolean isActive
 array scores
-integer count
-float temperature
-double precision
 
 // ==================
 // 4. OPERATORS
@@ -236,16 +233,10 @@ if is boolean(value)
     output "It's a boolean"
 if is array(value)
     output "It's an array"
-if is integer(value)
-    output "It's an integer"
-if is float(value)
-    output "It's a float"
 
 // Type conversion
 numValue = convert stringValue to number
 strValue = convert numValue to string
-intValue = to integer(floatValue)
-floatValue = to float(intValue)
 
 // ==================
 // 9. ARRAY OPERATIONS

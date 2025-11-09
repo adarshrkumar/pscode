@@ -170,15 +170,15 @@ for i from 1 to 100
 // 7. FUNCTIONS
 // ==================
 
-function calculateArea takes in length, width
+function calculateArea takes in length and width
     area = length * width
     return area
 
 function greet takes in name
     output "Hello, " + name
 
-run calculateArea with 5, 10
-run greet using "Alice"
+run calculateArea with 5 and 10
+run greet with "Alice"
 
 // ==================
 // 8. BUILT-IN FUNCTIONS

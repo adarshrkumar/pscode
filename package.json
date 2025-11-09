@@ -12,8 +12,8 @@
   "contributes": {
     "languages": [{
       "id": "pscode",
-      "aliases": ["Common Psuedo Code", "pscode"],
-      "extensions": [".pscode",".pcode",".psuedo"],
+      "aliases": ["Common Pseudo Code", "pscode"],
+      "extensions": [".pscode",".pcode",".pseudo", ".commonps"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{

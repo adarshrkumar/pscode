@@ -208,10 +208,10 @@ arcTangent = tan^-1 of value
 // String functions
 len = length of text
 trimmed = trim(text)
-parts = split(text, ",")
-joined = join(parts, " ")
-position = find(text, "substring")
-sub = substring(text, 0, 5)
+parts = split text by ","
+joined = join parts with " "
+position = find "substring" in text
+sub = substring of text from 0 to 5
 upper = uppercase(text)
 lower = lowercase(text)
 upper2 = to uppercase(text)
@@ -351,7 +351,7 @@ function findPrimes takes in limit
 // Main program
 input "Enter a number: " into maxValue
 result = run findPrimes with maxValue
-output "Found " + length(result) + " prime numbers"
+output "Found " + length of result + " prime numbers"
 
 for each prime in result
     output prime

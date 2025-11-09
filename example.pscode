@@ -130,11 +130,13 @@ else
 
 // Switch-Case
 switch day
-    case "Monday":
+    case "Monday"
         output "Start of week"
-    case "Friday":
+        jump
+    case "Friday"
         output "End of week"
-    default:
+        jump
+    default
         output "Mid week"
 
 // ==================
@@ -240,8 +242,8 @@ if is float(value)
     output "It's a float"
 
 // Type conversion
-numValue = convert to number(stringValue)
-strValue = convert to string(numValue)
+numValue = convert stringValue to number
+strValue = convert numValue to string
 intValue = to integer(floatValue)
 floatValue = to float(intValue)
 
@@ -250,8 +252,8 @@ floatValue = to float(intValue)
 // ==================
 
 // Sorting
-sort(numbers) in ascending order
-sort(numbers) in descending order
+sort numbers in ascending order
+sort numbers in descending order
 
 // Ranges
 for i in all the integers between 1 and 100

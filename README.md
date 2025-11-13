@@ -1,6 +1,6 @@
 # Common Pseudocode Syntax Highlighter (pscode)
 
-A VS Code extension that provides comprehensive syntax highlighting for [Common Pseudocode](commonps.md), making it easier to write, read, and teach pseudocode.
+A VS Code extension that provides comprehensive syntax highlighting for [Common Pseudocode](https://commonps.dev), making it easier to write, read, and teach pseudocode.
 
 ## Features
 

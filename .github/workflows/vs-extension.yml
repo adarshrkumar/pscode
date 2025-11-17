@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: 22
       - name: Install dependencies
         run: npm install
       - name: Run headless test
@@ -32,9 +32,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: 22
       - name: Install dependencies
         run: npm install
       - name: Release
